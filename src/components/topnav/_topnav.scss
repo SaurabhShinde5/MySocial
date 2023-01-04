@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   padding: 2rem 4rem;
+  z-index: 10;
   .topnav__left {
     flex: 3;
     .logo {
@@ -78,15 +79,6 @@
           justify-content: center;
           font-size: 1.2rem;
         }
-      }
-    }
-    .topnav__image {
-      img {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        object-fit: cover;
-        cursor: pointer;
       }
     }
   }

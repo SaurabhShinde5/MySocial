@@ -1,3 +1,30 @@
+@import "../../style/variable";
 .rightbar {
   flex: 3.5;
+  &__wrapper {
+    // padding: 2rem 2rem 0 0;
+    padding-top: 2rem;
+    .birthday__container {
+      display: flex;
+      align-items: center;
+      padding: 2rem;
+      .birthday__img {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 1rem;
+      }
+      .birthday__text {
+        font-weight: 300;
+        font-size: 1.5rem;
+      }
+    }
+    .rightbar__ad-img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 3rem 0;
+    }
+    .rightbar__title {
+      margin: 2rem 0;
+    }
+  }
 }

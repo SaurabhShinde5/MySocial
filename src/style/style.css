@@ -13,4 +13,22 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.profile-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

@@ -38,9 +38,7 @@ const Topnav = () => {
             <span className="topnav__icon-badge">1</span>
           </div>
         </div>
-        <figure className="topnav__image">
-          <img src={Person1} alt="topnav profile" />
-        </figure>
+        <img className="profile-img" src={Person1} alt="topnav profile" />
       </div>
     </div>
   );

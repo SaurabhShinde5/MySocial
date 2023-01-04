@@ -11,6 +11,9 @@ import {
   School,
 } from "@mui/icons-material";
 
+import { Users } from "../../dummyData";
+import { CloseFriend } from "../index";
+
 const Sidebar = () => {
   return (
     <div className="sidebar">
@@ -52,6 +55,12 @@ const Sidebar = () => {
             <School className="sidebar__icon" />
             <span className="sidebar__list-item__text">Courses</span>
           </li>
+        </ul>
+        <button className="sidebar__button">Show more</button>
+        <ul className="sidebar__friend__list">
+          {Users.map((u) => (
+            <CloseFriend key={u.id} user={u} />
+          ))}
         </ul>
       </div>
     </div>
