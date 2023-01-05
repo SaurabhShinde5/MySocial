@@ -1,4 +1,4 @@
-import { Home } from "./pages";
+import { Home, Profile, Login, Register } from "./pages";
 
 const App = () => {
   return (

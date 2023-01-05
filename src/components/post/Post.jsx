@@ -1,11 +1,11 @@
-import "./_post.scss";
+import { useState } from "react";
 
+import "./_post.scss";
 import heart from "../../assets/heart.png";
 import likes from "../../assets/like.png";
 import { MoreVert } from "@mui/icons-material";
 
 import { Users } from "../../dummyData";
-import { useState } from "react";
 
 const Post = ({ post }) => {
   const [like, setLike] = useState(post.like);
